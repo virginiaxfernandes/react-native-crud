@@ -1,0 +1,8 @@
+{
+"expo": {
+"name": "CRUD Mobile",
+"slug": "crud-mobile",
+"version": "1.0.0",
+"platforms": ["ios", "android", "web"]
+}
+}
