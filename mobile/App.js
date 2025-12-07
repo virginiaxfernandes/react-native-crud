@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView, View, Text, TextInput, Button, FlatList, TouchableOpacity, Alert } from 'react-native';
 
-const BASE_URL = 'http://192.168.10.148:3000'; 
+const BASE_URL = 'http://192.168.10.148:3333'; 
 
 export default function App() {
   const [items, setItems] = useState([]);
