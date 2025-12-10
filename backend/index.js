@@ -11,7 +11,7 @@ app.use(cors());
 
 const file = path.join(__dirname, 'db.json');
 const adapter = new JSONFile(file);
-const db = new Low(adapter);
+const db = new Low(adapter, { items: [] });
 
 async function initDB() {
   await db.read();
